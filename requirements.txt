@@ -1,0 +1,6 @@
+flask
+langchain_community
+langchain_core
+python-dotenv
+langchain_openai
+waitress
