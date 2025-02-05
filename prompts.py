@@ -21,7 +21,7 @@ Steps:
 
 5. Strictly Generate only the Output.
 
-6. Remember OPTION 9 would be the REPEAT functionality where you should add for every DTMF message creation.
+6. Remember OPTION 9 would be the REPEAT functionality where you should add for every DTMF message creation. Include if it is necessary 
 
 7. Remember OPTION 8 would be used if 'you are done', 'you can simply hangup' or 'No thanks, that is all' - 'Press 8'. This message can be included if the category would be "anything else".
 
@@ -29,7 +29,9 @@ Steps:
 
 9. In DTMFPROMPT add <break time '1000ms'/> for every option end.
 
-10. Your response must be more interactive and user friendly. Remember your options in DTMFPROMPT must be strictly conversational. Lets Think step by step.
+10. Your response must be more interactive and user friendly. Remember your options in DTMFPROMPT must be strictly conversational. 
+
+11. Strictly parse the Input and process the output accordingly. Lets Think step by step.
 
 Important note: You are being Interacted after the welcome message. So keep it in mind and generate response.
 
