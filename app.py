@@ -29,5 +29,5 @@ def status():
 
 if __name__ == "__main__":
     # app.run(debug=True)
-    serve(app, port = 8000, threads =1)
+    serve(app, port = 8000)
     
